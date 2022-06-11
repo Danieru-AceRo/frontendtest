@@ -1,0 +1,93 @@
+@import url(../../vars.css);
+*{
+    color: var(--color-black);
+}
+.card{
+    background-color: white;
+    position: relative;
+    margin: 1rem;
+}
+
+.card-inside{
+    padding: .5rem .5rem 2rem;
+    display: flex;
+}
+.card-header{
+    padding-bottom: 1rem;
+}
+.card-img{
+    flex: 2;
+    margin: 0 1rem;
+}
+.card-img img{
+    max-width: 100%;
+}
+.card-body{
+    flex: 5;
+}
+.card-title{
+    margin: 0;
+    font-size: 22px;
+    color: var(--color-main);
+}
+.card-description{
+    font-size: 16px;
+}
+.card-review span{
+    color: var(--color-main);
+}
+.card-review small{
+    color: #bbb
+}
+.share{
+    position: absolute;
+    right: .5rem;
+    top: 0;
+    font-size: 16px;
+    color: var(--color-main);
+}
+
+.sale{
+    position: absolute;
+    right: .5rem;
+    bottom: 0;
+    font-size: 24px;
+    margin: 0;
+    color: var(--color-main);
+}
+
+
+@media only screen and (max-width: 426px) {
+    .card-inside{
+        display: block;
+    }
+    
+    .card-body {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    .card-img{
+        margin: 0;
+    }
+
+    .card-review span{
+        color: var(--color-black);
+    }
+    .card-review small{
+        color: #bbb
+    }
+    .card-description{
+        display: none;
+    }
+    .travel{
+        display: none;
+    }
+    .share{
+        bottom: 0;
+        left: 0;
+        top: initial;
+        margin: 0;
+    }
+
+  }
