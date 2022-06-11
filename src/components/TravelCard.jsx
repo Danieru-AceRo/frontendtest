@@ -10,7 +10,8 @@ const travels = [
         "score": 9.5,
         "opinions": 1316,
         "travelers": "12 681",
-        "price": "gratis"
+        "price": "gratis",
+        "discount": ""
     },
     {
         "id": 2,
@@ -20,7 +21,8 @@ const travels = [
         "score": 9.2,
         "opinions": 2215,
         "travelers": "20 621",
-        "price": "55€"
+        "price": "55€",
+        "discount": "(-30%)"
     }
 ]
 const TravelCard = () => {

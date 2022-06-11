@@ -41,16 +41,23 @@
 }
 .share{
     position: absolute;
-    right: .5rem;
+    right: 5.5rem;
     top: 0;
     font-size: 16px;
     color: var(--color-main);
+    cursor: pointer;
 }
-
-.sale{
+.price{
     position: absolute;
     right: .5rem;
     bottom: 0;
+}
+.discount{
+    margin-right: .5rem;
+    color: greenyellow;
+}
+.sale{
+
     font-size: 24px;
     margin: 0;
     color: var(--color-main);
